@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Форма</title>
+</head>
+<body>
+
+<div class="errors">
+    <span class="span1"></span>
+    <a class="span2" href="config.php" target="_blank"></a>
+</div>
+
+<form class="form">
+    <fieldset>
+        <legend>Заполните форму</legend>
+
+
+        <input type="text" placeholder="Введите имя" id="name" class="input"><br>
+        <input type="text" placeholder="Введите фамилию" id="surname" class="input"><br>
+        <input type="number" placeholder="Введите свой возраст" id="age" class="input"><br>
+
+        <div class="button_div">
+            <button name="save" value="сохранить" class="button button_save">сохранить</button>
+            <button name="upload" value="выгрузить" class="button button_upload" type="submit">выгрузить</button>
+        </div>
+    </fieldset>
+</form>
+
+<script src="jQuery.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
